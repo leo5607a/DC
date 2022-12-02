@@ -1,0 +1,25 @@
+{
+  "name": "dc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./Server/index.js",
+    "watch": "watchify Client/js/socket.js -o Client/js/bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mediasoup": "^3.11.3",
+    "mediasoup-client": "^3.6.59",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "watchify": "^4.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <video class="localstream" autoplay muted></video>
+    <button id="getLocalStream">1: start local stream</button>
+    <button id="getRtpCapabilities">2: get Rtp Capabilities</button>
+    <button id="createDevice">3: create device</button>
+    <button id="createSendTransport">4: create send transport</button>
+    <button id="connectSendTransport">5: connect send transport</button>
+    <button id="createRecvTransport">6: create receive transport</button>
+    <button id="connectRecvTransport">7: connect receive transport</button>
+    <video class="remotestream" autoplay muted></video>
+    <script src="./js/bundle.js"></script>
+</body>
+</html>
